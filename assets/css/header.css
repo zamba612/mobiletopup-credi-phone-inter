@@ -1,0 +1,42 @@
+
+
+/*header{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+
+}
+header nav{
+    margin: 0;
+    padding: 0;
+
+}
+header article h1{
+   text-align: center;
+ color: violet;
+}
+
+
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    flex: 1;
+    list-style: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 25px;
+    border: 2px solid tan;
+    margin: 5px;
+}
+header nav ul li a{
+ text-decoration: none;
+ padding: 25px;
+ color: yellow;
+
+}

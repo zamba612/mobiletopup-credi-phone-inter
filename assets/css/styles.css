@@ -1,0 +1,72 @@
+/*body .contenair section:nth-child(1){
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  flex-direction: column;
+  }
+  .contenair section:nth-child(1) #countries{
+    padding: 25px;
+    background-color: beige;
+  }
+  .contenair section:nth-child(1) label{
+    padding: 17px;
+    background-color: chocolate;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .contenair section:nth-child(1) div{
+    display: flex;
+    padding: 4px;
+    border: 1px solid springgreen;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+  }
+  .contenair section:nth-child(1) div span{
+    flex: 1;
+    background-color: grey;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid springgreen;
+  }
+  .contenair section:nth-child(1) div input{
+    flex: 8;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid springgreen;
+  }
+  
+  .contenair section:nth-child(1) div button{
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid springgreen;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+ .contriesitems{
+ 
+  flex-direction: column;
+ }
+ */
+ .choisir-paiement-method{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   flex-direction: row;
+   background-color: beige;
+   padding: 55px;
+ }
+        .pay-pal, .bank-account, .card-paiement-temp{
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          justify-items: center;
+          padding: 14px;
+          margin: 14px;
+          border: 1px solid white;
+          cursor: pointer;
+          background-color: yellow;
+        }

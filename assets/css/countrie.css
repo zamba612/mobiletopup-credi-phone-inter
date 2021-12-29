@@ -1,0 +1,48 @@
+/*body section{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    flex-direction: column;
+    }
+    section #countries{
+      padding: 25px;
+      background-color: beige;
+    }
+    section label{
+      padding: 17px;
+      background-color: chocolate;
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    section div{
+      display: flex;
+      padding: 4px;
+      border: 1px solid springgreen;
+      background-color: grey;
+      color: white;
+      font-weight: bold;
+    }
+    section div span{
+      flex: 1;
+      background-color: grey;
+      padding: 10px;
+      margin: 5px;
+      text-align: center;
+      border: 2px solid springgreen;
+    }
+    section div input{
+      flex: 8;
+      padding: 5px;
+      margin: 5px;
+      border: 2px solid springgreen;
+    }
+    
+    section div button{
+      flex: 1;
+      padding: 5px;
+      margin: 5px;
+      border: 2px solid springgreen;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    

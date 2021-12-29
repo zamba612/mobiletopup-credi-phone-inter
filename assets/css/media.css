@@ -1,0 +1,107 @@
+@media screen and (max-width:600px){
+    body{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1rem;
+      }
+      #nav-1{
+        display: none;
+      }
+      .contenair{
+        display: flex;
+       flex-direction: column;
+        
+      }
+      .contenair nav:nth-child(1){
+       flex: 1;
+      }
+      .contenair .contenair-items:nth-child(2){
+       flex: 1;
+      }
+      .contenair nav:nth-child(3){
+      flex: 1;
+      }
+      .pay-detail{
+         font-family: 'Courier New', Courier, monospace;
+         font-size: 1rem;
+      }
+      .pay-detail #taux-echange{
+          font-size: 10px;
+          flex: 2;
+      }
+      #send-item, #receiv-item,
+      #taux-echange,#operator-zam,
+      .telephone-bo,#taux-echange-montant-init{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        border: 1px solid beige;
+        background-color: beige;
+      }
+      #sendercurrencysymbol,
+      #changecurrency,
+      #receiver-currency,
+      #operatorName,
+      #phonecallnumber,
+      #taux_echanges,#sender-currency,#equal-selector,#taux-echange,
+      [for="cardNumber"],
+      [for="cvc"],
+      #taux-echange-montant-init{
+        flex: 3;
+        background-color: red;
+        box-shadow: 2px 2px 5px white;
+        color: white;
+        border: 1px solid white;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align: center;
+        padding: 5px;
+      }
+      .sender-amount-detail .sender-amount-calc > h1{
+          padding: 15px;
+      }
+      #test_btn{
+        flex: 1;
+        margin: 5px 0;
+        border: 3px solid white;
+        background-color: gainsboro;
+        border-radius: 25px;
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+        font-weight: bold;
+        color: rebeccapurple;
+      }
+      .paiement-details-1{
+          font-size: 0.90rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #myDynamicTable, table{
+        width: 100%;
+        font-size: 0.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: black;
+      }
+      #regit{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        height: 100%;
+       
+      
+      }
+      #registration{
+        background-color: beige;
+        background-image: url('/assets/images/mobile-iphone.jpg');
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column;
+       width: 200px;
+      
+      }
+  
+}

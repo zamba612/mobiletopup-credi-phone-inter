@@ -1,0 +1,15 @@
+.interface-user{
+    display: flex;
+    flex-direction: row;
+}
+
+#manu-navigation{
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+#manu-navigation ul li{
+padding: 5px;
+}

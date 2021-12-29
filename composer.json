@@ -1,0 +1,29 @@
+{
+    "name": "panda/mobiletopup",
+    "description": "Mobile Top Up copy ZambaApple",
+    "type": "n",
+    "license": "UnLIcencied",
+    "autoload": {
+        "psr-4": {
+            "Panda\\Mobiletopup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mantemo Tusiamina Bob",
+            "email": "mantemotusiaminabob@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "stripe/stripe-php": "^7.101", "paypal/paypalhttp": "1.0.0",
+        "paypal/paypal-checkout-sdk": "1.0.1",
+        "mongodb/mongodb": "v1.8.x-dev",
+        "phpmailer/phpmailer": "dev-master",
+        "twilio/sdk": "dev-main",
+        "kreait/firebase-php": "6.x-dev",
+        "google/cloud-firestore": "^0.1.0",
+        "altorouter/altorouter":"1.2.0"
+       
+    }
+}

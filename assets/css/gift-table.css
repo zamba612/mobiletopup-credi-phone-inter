@@ -1,0 +1,93 @@
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+}
+
+header .navigation{
+  display: flex;
+  flex-direction: row;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ padding: 4px;
+ border-radius: 14px;
+ background-color: beige;
+}
+header .navigation .menu-m-left{
+  flex: 1;
+background-color: beige;
+
+}
+header .navigation .menu-m-center{
+  flex: 1;
+  background-color: crimson;
+}
+header .navigation .menu-m-right .interface-user{
+  flex: 1;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+justify-items: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+
+[alt="menu-icon"]{
+width: 55px;
+display: flex;
+justify-content: center;
+justify-items: center;
+align-items: center;
+cursor: pointer;
+flex: 1;
+}
+[alt="mobile-iphone"]{
+  width: 167px;
+  border-radius: 25px;
+}
+header .navigation .menu-m-right .interface-user #menu-nav{
+  flex: 1;
+  position: relative;
+  float: left;
+ 
+}
+header .navigation .menu-m-right .interface-user #menu-nav ul li{
+ list-style-type: none;
+ 
+}
+header .navigation .menu-m-right .interface-user #menu-nav ul li a{
+ text-decoration: none;
+  
+ }
+   #myDynamicTable, table{
+    width: 100%;
+    font-size: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  table tbody tr{
+    background-color: gainsboro;
+    padding: 125px;
+   
+  }
+  table tbody tr td:nth-child(3){
+  font-size: 0.5rem;
+  flex-direction: column;
+  
+  background-color: grey;
+  }
+  table tbody tr td, table thead tr th{
+    font-size: 0.5rem;
+    background-color: grey;
+    }
+   
+[for="countries"],#countries{
+  padding: 5px;
+}
+#countries{
+  background-color: beige;
+}
+    
+    

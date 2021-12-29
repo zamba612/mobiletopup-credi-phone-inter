@@ -1,0 +1,288 @@
+header{
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 2px solid gray;
+    padding: 4px;
+    margin: 0;
+  }
+#header-account .header-left,#header-account .header-center,#header-account .header-right{
+flex: 1;
+display: flex;
+justify-content: center;
+padding: 2px;
+margin: 2px;
+}
+.contenair-placer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "nav-1 section-1 nav-2" "nav-1 section-1 nav-2" "nav-1 section-1 nav-2";
+}
+.contenair-placer #nav-1{
+    grid-area: nav-1;
+    background-color: beige;
+    position: sticky;
+   top: 0;
+}.contenair-placer #section-1{
+    grid-area: section-1;
+    background-color: beige;
+    overflow: auto;
+}.contenair-placer #nav-2{
+    grid-area: nav-2;
+    background-color: beige;
+}
+.contenair-placer #nav-1{
+    padding: 5px;
+}
+
+.contenair-placer #nav-1 .items{
+    width: 142px;
+    height: max-content;
+    background-color: slateblue;
+    border-radius: 7px;
+    border: 2px solid white;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    margin: 5px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+  
+}
+.contenair-placer #nav-1 .items:hover{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green;
+    border-radius: 7px;
+  
+}
+.contenair-placer #nav-1 .items .contents{
+    display: flex;
+    flex-direction: row;
+}
+.contenair-placer #nav-1 .items .contents span:nth-child(1){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: max-content;
+    font-size: 2rem;
+    height: max-content;
+    flex: 1;
+   color: white;
+
+  
+}
+.contenair-placer #nav-1 .items .contents span:nth-child(2){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 1rem;
+    width: 145px;
+    height: 45px;
+    background-color: slateblue;
+    border-radius: 7px;
+    flex: 4;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green;
+    border-radius: 7px;
+  
+
+}
+.contenair-placer #mespaiements .mespaiementslist div span{
+    background-color: blueviolet;
+}
+#monprofil{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   justify-items: center;
+   padding: 40px;
+   
+}
+.monprofil-left{
+    margin: 50px;
+    border: 1px solid grey;
+}
+.monprofil-left img{
+   border: 1px solid white;
+   width: 120px;
+}
+.monprofil-right{
+ display: flex;
+ flex-direction: column;
+
+}
+.monprofil-right > div{  
+    display: flex; 
+    margin: 2px;    
+   }
+.monprofil-right label{
+    width: 180px;
+    background-color: grey;
+    flex: 1;
+    border: 1px solid wheat;
+    align-items: center;
+    text-align: center;
+}
+.monprofil-right input{
+    flex: 1;
+}
+.monprofil-right .username,.monprofil-right .password,.monprofil-right .name,.monprofil-right .lastname,.country{
+    flex: 1;
+ 
+}
+.mobiletopup_title{
+    font-size: 3rem;
+    font-style: oblique;
+    color: royalblue;
+    
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*GIFT*/
+#giftTable td, #giftTable img{
+width: 125px;
+}
+#giftTable td:nth-child(3) div{
+    margin: 10px;
+}
+#giftTable td:nth-child(3) div:nth-child(1){
+    background-color: red;
+}
+#giftTable tbody{
+    border: 1px solid black;
+}
+#giftTable tbody tr td:nth-child(2) div{
+    background-color: burlywood;
+    border-radius: 125px;
+    margin: 45px;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+
+    
+}
+#giftTable tbody tr td:nth-child(2) div strong:nth-child(1){
+    background-color: burlywood;
+    border-radius: 125px;
+    margin: 2px;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+
+    
+}
+#giftTable tbody tr td:nth-child(2) div:hover{
+   background-color: darkgreen;
+   padding: 25px;
+    
+}
+/*USERS ONLINE OFFLINE*/
+
+#nav-2{
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+#nav-2 .search-user-div{
+    flex: 1;
+}
+[alt="chercher-icon"]{
+    width: 25px;
+}
+#nav-2 #user-online-div{
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+    
+}
+#nav-2 #users-online{
+    flex: 3;
+}
+#nav-2 #user-online-div #online-icon{
+    background-color: greenyellow;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    float: right;
+    flex: 1;
+    border-radius: 15px;
+}
+
+#nav-2 #user-offline-div{
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+    
+}
+#nav-2 #users-offline{
+    flex: 3;
+}
+#nav-2 #user-offline-div #offline-icon{
+    background-color: red;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    float: right;
+    flex: 1;
+    border-radius: 15px;
+}
+/*COUNTRY FLAG*/
+[alt="country-flag"]{
+    width: 125px;
+}
+@media screen and (max-width:600px){
+    .contenair-placer{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 1fr;
+        grid-template-areas: "nav-1 nav-1" "section-1 section-1" "nav-2 nav-2";
+    }
+    .contenair-placer #nav-1{
+        grid-area: nav-1;
+        background-color: thistle;
+    }.contenair-placer #section-1{
+        grid-area: section-1;
+        background-color: turquoise;
+    }.contenair-placer #nav-2{
+        grid-area: nav-2;
+        background-color: violet;
+    } 
+}

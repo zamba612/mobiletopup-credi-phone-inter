@@ -1,0 +1,262 @@
+/*.contenair{
+    justify-content: center;
+        display: flex;
+        background-color: beige;
+        
+    }
+    .contenair section{
+        background-color: blueviolet;
+        padding: 25px;
+        margin: 58px;
+    }
+    .contenair section article{
+       display: flex;
+       flex-direction: column;
+          
+      }
+    .contenair section article div label{
+        padding: 15px;
+        flex: 1;
+          
+      }
+    
+     
+      .contenair section article .countrie_iso{
+        margin: 5px;
+      }
+    .contenair section article div select{
+      padding: 15px;
+      flex: 1;
+        
+    }
+   
+  
+    .countrie_iso #interface_operator{
+       display: flex;
+       flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    }
+   
+    #fieldset-1{
+      align-items: center;
+      padding: 30px;
+    }
+
+  fieldset:nth-child(2) article{
+  display: flex;
+flex-direction: column;
+background-color: blueviolet;
+padding: 25px;
+margin: 58px;
+}
+ #operatorflag{
+  width: 180px;
+  height: 150px;
+  flex: 1;
+  
+}
+#flag{
+width: 180px;
+height: 150px;
+position: relative;
+float: left;
+flex: 1;
+
+}
+#flag-1{
+  width: 180px;
+  height: 150px;
+  position: relative;
+  float: left;
+  
+  }
+#isoName{
+  padding: 15px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 125px; 
+}
+#countries{
+  padding: 15px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 125px; 
+ margin: 2px 0;
+}
+#c-currency-name{
+  padding: 15px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 125px; 
+  margin: 2px 0;
+}
+#c-currency-code{
+  padding: 15px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 125px; 
+  margin: 2px 0;
+}
+#test_btn{
+  padding: 15px;
+border: 2px solid red;
+background-color: red;
+color: white;
+border-radius: 125px;
+margin: 2px 0;
+    
+}
+#operatorid{
+  padding: 15px;
+border: 2px solid red;
+background-color: red;
+color: white;
+border-radius: 125px; 
+margin: 2px 0;  
+}
+#operatorName{
+padding: 15px;
+border: 2px solid red;
+background-color: red;
+color: white;
+border-radius: 125px; 
+margin: 2px 0;
+}
+.flags{
+  display: flex;
+  flex-direction: row;
+}
+#suggestion_amount_1{
+  display: grid;
+  grid-auto-columns: auto;
+}
+#suggestionamount_{
+  flex: 1;
+  padding: 15px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 125px; 
+  margin: 5px;
+
+}
+[for="countries"]{
+  padding: 15px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 125px;
+
+}
+#phonecallnumber{
+  padding: 15px;
+border: 2px solid red;
+background-color: red;
+color: white;
+border-radius: 125px;
+    
+}
+#phonenumber{
+  padding: 15px;
+border: 2px solid red;
+background-color: red;
+color: white;
+border-radius: 125px;
+    
+}
+#suggestedAmounts{
+  cursor: pointer;
+}
+.pay_contenair{
+  display: flex;
+  flex-direction: column;
+}
+.cardNumber{
+ background-color: yellowgreen;
+}
+.cardNumber input{
+padding: 2px;
+ }
+#cardNumber{
+  display: block;
+}
+#expirecard{
+  display: flex;
+  flex-direction: column;
+
+}
+[for="expirecard"]{
+  flex: 1;
+}
+.expiretime{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.expiretime input{
+  width: 90px;
+  padding: 2px;
+  border: 2px solid red;
+}
+.expireMonth_1{
+  display: flex;
+  flex-direction: column;
+}
+.cvc{
+  display: flex;
+  flex-direction: column;
+  
+}
+#cvc{
+  padding: 2px;
+}
+#pay_button{
+  padding: 15px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 125px; 
+  margin: 5px;
+  justify-content: center;
+  justify-items: center;
+}
+
+[alt="operatorflag"]{
+  display: none;
+}
+/*
+#operatorid{
+  display: none;
+}*/
+#field-set-2{
+  display: flex;
+  flex-direction: row;
+}
+#field-set-3{
+  display: flex;
+}
+.details-1{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.details-2{
+  display: flex;
+  flex-direction: row;
+}
+#isoinformations{
+  display: 1;
+}
+.contenair .contenair-items:nth-child(1) article{
+  display: flex;
+flex-direction: column;
+background-color: blueviolet;
+padding: 25px;
+margin: 58px;
+}

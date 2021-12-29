@@ -1,0 +1,75 @@
+.contenair .recu-contenair{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenair .recu-contenair .facture{
+    flex: 1;
+}
+#purchasseunits,#info_detail{
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 44px;
+    background-color: green;
+}
+#identifiant{
+    padding: 11px;
+  
+}
+table td, table th{
+    margin: 25px;
+    padding: 25px;
+
+}
+table tr:nth-child(1)>th>span{
+    border-radius: 265px;
+    background-color: gray;
+    padding: 25px;
+}
+table tr:nth-child(2)>th, table tr:nth-child(2)>th>strong{
+    border-radius: 265px;
+    background-color: grey;
+    padding: 10px;
+    border: 1px solid white;
+    color: indigo;
+
+}
+#facture-table{
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: violet;
+    
+}
+.recu-contenair{
+   
+}
+#paiement-info #logo,
+#paiement-info #company,
+#paiement-info #email-address,
+#paiement-info #phone-contact,
+#paiement-info #company-site-web{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 3px;
+    margin: 5px;
+    color: grey;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   flex: 1;
+}
+#paiement-info #logo>img{
+    width: 50px;
+  
+}
+#paiement-info{
+    background-color: greenyellow;
+    padding: 25px;
+   border-radius: 25px;
+}
+head title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hotpink;
+}

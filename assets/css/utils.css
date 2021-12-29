@@ -1,0 +1,12 @@
+.active{
+    background-color: greenyellow;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.img-width{
+    width: 50px;
+    width: 50px;
+}

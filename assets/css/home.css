@@ -1,0 +1,139 @@
+header{
+    background-color: beige;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-areas: 'header header' 'contenair contenair' 'footer footer';
+}
+#header{
+    grid-area: header;
+    background-color: rgb(red, green, blue);
+    padding: 50px;
+}
+.contenair{
+    grid-area: contenair;
+    background-color: beige;
+}
+.contenair article{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 25px;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+padding: 10px;
+}
+.contenair article h1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: justify;
+    background-color: grey;
+    padding: 25px;
+    color: white;
+}
+.contenair article p{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+#footer{
+    grid-area: footer;
+    
+}
+
+/*utils*/
+[alt="country_flag"]{
+    width: 125px;
+}
+#presentation{
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+.contenair #presentation #achetercreditfacile,.contenair #presentation img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   
+}
+figcaption {
+    background-color: blueviolet;
+    color: red;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    font-family: Monoton;
+    text-align: center;
+}
+
+
+.contenair #presentation p  #operatorslist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  
+}
+.contenair #presentation p  #operatorslist{
+border: 1px solid gray;
+margin: 5px;
+  
+}
+
+.contenair #presentation p #operatorslist img{
+    width: 50px;
+    height: 50px;
+}
+/*TABLES*/
+.contenair #presentation #MyTable{
+    font-family: 'serif';
+}
+.contenair #presentation #MyTable tbody tr span{
+   background-color: red;
+   width: max-content;
+   height: max-content;
+   padding: 5px;
+   border-radius: 125px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   margin: 10px 0 10px;
+   display: inline-block;
+   align-items: center;
+}
+.contenair #presentation #MyTable tbody tr #My_Table tbody tr span{
+    background-color: red;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    border-radius: 125px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0 10px;
+    display: inline-block;
+    align-items: center;
+ }
