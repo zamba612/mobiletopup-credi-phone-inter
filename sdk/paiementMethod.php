@@ -1,16 +1,16 @@
 <?php
 $stripeEnv=array('test','live');
+
 use Panda\Mobiletopup\DBSQL;
 
 require(dirname(__FILE__) . '/../vendor/autoload.php'); 
-//use Stripe\StripeClient;
 $DB=new DBSQL();
 for ($i=0; $i < count($stripeEnv); $i++) { 
+  echo $stripeEnv[$i];
   $DB->DB_SELECT_STRIPE_CLIENT($stripeEnv[$i]);
   $stripe = new \Stripe\StripeClient(
     "$DB->stripeAp"
   );
-
   $cardnumber = $_POST['cardnumber'];
   $expiremonth = $_POST['expiremonth'];
   $expireyear = $_POST['expireyear'];
@@ -41,4 +41,5 @@ for ($i=0; $i < count($stripeEnv); $i++) {
   echo json_encode($confirmpay);
 
  }
+
 
