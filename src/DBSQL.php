@@ -37,6 +37,8 @@ class DBSQL
   public $pageurl;
   public $page;
   public $pagehash;
+  public $stripeAp;
+
   public function __construct()
   {
     $this->countrieid;
@@ -58,6 +60,7 @@ $this->lastname;
   $this->pageurl;
    $this->page;
    $this->pagehash;
+   $this->stripeAp;
   }
 
   public function DB_MYSQL_CONNECTION()
@@ -486,5 +489,19 @@ public function DB_PAGES_WEB_ARRAY(){
    $result[]=$values;
     }
     return json_encode($result);
+}
+public function DB_SELECT_STRIPE_CLIENT($stripeApi){
+    $query = "SELECT * FROM stripeapi WHERE env='$stripeApi'";
+    if($this->result = mysqli_query($this->DB_MYSQL_CONNECTION(), $query)){
+      while ($values = mysqli_fetch_assoc($this->result)) {
+        $this->stripeAp=$values['client'];
+      
+      }
+    }else{
+   
+    }
+ 
+  
+ 
 }
 }
